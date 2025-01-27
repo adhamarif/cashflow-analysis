@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title('Study Loan Calculator')
-st.caption("""This calculator helps you to calculate the monthly payment for JPA loan.
+st.caption("""This calculator helps you to calculate the monthly payment for study loan.
                Please note that this might not be the exact amount as the actual calculation might be different.""")
 
 def calculate_monthly_payment(loan_amount, years, initial_monthly_payment, discount_rate=0):
